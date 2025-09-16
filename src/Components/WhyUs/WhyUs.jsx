@@ -1,5 +1,6 @@
 import React from 'react'
 import "./WhyUs.css"
+import Supervision from '../Supervision/Supervision'
 
 export default function WhyUs() {
     return (
@@ -13,7 +14,7 @@ export default function WhyUs() {
                 <div className="row my-3">
                     <div className="col-md-4">
                         <div className="whyusbox">
-                            <h5 className='headclr text-center pop'> 🌿 Psychological Assessments</h5>
+                            <h5 className='headclr text-center pop'> Psychological Assessments</h5>
                             <p className='paraclr pop text-center'>Our psychological assessment services help you gain clarity and direction by identifying emotional, cognitive, and behavioral patterns.</p>
                             <li className='text-dark text-start mb-1 pop'>✔️  Personality Assessments</li>
                             <li className='text-dark text-start mb-1 pop'> ✔️  Intelligence & Cognitive Functioning Tests</li>
@@ -24,7 +25,7 @@ export default function WhyUs() {
                     </div>
                     <div className="col-md-4 mt-3 mt-md-0">
                         <div className="whyusbox">
-                            <h5 className='headclr text-center pop'>💬 Psychotherapy & Counseling Services</h5>
+                            <h5 className='headclr text-center pop'>Psychotherapy & Counseling Services</h5>
                             <p className='paraclr pop text-center'>We provide confidential therapy and counseling in Pakistan tailored to your unique needs.</p>
                             <li className='text-dark text-start mb-1 pop'> ✔️ Individual Therapy: Manage anxiety, depression, trauma, and self-esteem challenges.  <br /> <span className='fw-bold'>
                                 Charges:2500Pkr
@@ -43,7 +44,7 @@ export default function WhyUs() {
                     </div>
                     <div className="col-md-4 mt-3 mt-md-0">
                         <div className="whyusbox">
-                            <h5 className='headclr text-center pop'> 💬 Specialized Counseling Services</h5>
+                            <h5 className='headclr text-center pop'> Specialized Counseling Services</h5>
                             <p className='paraclr pop text-center'>Our expert team offers targeted counseling sessions to address specific needs:</p>
                             <li className='text-dark text-start mb-1 pop'> ✔️ Career Counseling: Explore your strengths, set career goals, and make confident decisions. 
                             <br /> <span className='fw-bold'>
@@ -60,6 +61,8 @@ export default function WhyUs() {
                         </div>
                     </div>
                 </div>
+
+                <Supervision/>
             </div>
 
         </div>
