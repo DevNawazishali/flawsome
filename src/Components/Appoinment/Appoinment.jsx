@@ -5,7 +5,7 @@ export default function Appoinment() {
     return (
         <div className='Appoinment'>
             <div className="container">
-            <hr style={{ color: "#7e00cd", height: "3px" }} />
+            {/* <hr style={{ color: "#7e00cd", height: "3px" }} /> */}
 
                 <h1 className='headclr mt-4  pop text-center fw-bold'>BOOK YOUR APPOINTMENT</h1>
                 <div className="row justify-content-center mt-5">

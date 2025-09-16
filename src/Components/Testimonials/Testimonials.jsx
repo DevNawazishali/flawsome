@@ -14,7 +14,7 @@ export default function Testimonials() {
     return (
         <div className='Testimonials' id='Testimonials'>
             <div className="container">
-            <hr style={{ color: "#7e00cd", height: "3px" }} />
+            {/* <hr style={{ color: "#7e00cd", height: "3px" }} /> */}
 
                 <h1 className='text-center fw-bold mt-4 headclr'>Testimonials  </h1>
                 <>

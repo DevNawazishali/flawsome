@@ -44,12 +44,15 @@ export default function Header() {
                             <Nav.Link as={Link} onClick={handleClose}  to="story" >The story garden </Nav.Link>
                             <Nav.Link as={Link} onClick={handleClose}  to="FlawVoices" >	Flawsome voices </Nav.Link>
                             <Nav.Link as={Link} onClick={handleClose}  to="Resources" >Resource  </Nav.Link>
-                            <Nav.Link href="#Testimonials" onClick={handleClose} >Testimonials  </Nav.Link>
+                            <Nav.Link as={Link} to="Testinomials" onClick={handleClose} >Testimonials  </Nav.Link>
                             {/* <Nav.Link href="#pricing">Faq</Nav.Link> */}
 
                         </Nav>
                         <Nav>
+                        <Link to="Appointment" className='text-decoration-none'>
+
                             <button className=' appointment'> Book a Session </button>
+                        </Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

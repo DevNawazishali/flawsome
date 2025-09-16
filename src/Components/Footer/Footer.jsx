@@ -18,14 +18,14 @@ export default function Footer() {
             <div className='icons_contact'>
 
 
-              <h3 className='fw-bold pop headclr '>Contact Us </h3>
+              <h3 className='fw-bold pop text-white '>Contact Us </h3>
               <li className='paraclr pop fw-semibold'> <MdEmail className='me-2' /> flawsomepsych@gmail.com</li>
               <li className='paraclr pop fw-semibold'> <FaPhoneAlt className='me-2' /> +923429713141</li>
               <li className='paraclr pop fw-semibold'> <FaLocationDot className='me-2' /> Pakistan&Kashmir </li>
             </div>
           </div>
           <div className="col-md-4 mt-3 mt-md-0">
-            <h3 className='fw-bold pop    headclr '>Follow US </h3>
+            <h3 className='fw-bold pop    text-white '>Follow US </h3>
             <div className="social_icons">
 
 

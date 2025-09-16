@@ -1,6 +1,10 @@
 .mainFooter{
-    background-color: #f7e9d9;
+    background-color: #0d9cb5;
 
+}
+
+.mainFooter li {
+    color: white !important;
 }
 .icons_contact{
     list-style: none;
@@ -13,11 +17,12 @@
    
 }
 
+
 .social_icons a{
-    color: black !important;
+    color: white !important;
     transition: all 0.5s;
     font-size: 20px;
 }
 .social_icons a:hover{
-    color:#9F00FF !important;
+    color:#0d9cb5 !important;
 }

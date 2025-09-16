@@ -4,6 +4,10 @@
 .pop {
     font-family: "Poppins", sans-serif;
 }
+body{
+    font-family: "Poppins", sans-serif !important;
+
+}
 
 .navlogo {
     width: 120px;

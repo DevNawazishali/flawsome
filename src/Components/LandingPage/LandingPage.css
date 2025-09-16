@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     padding: 40px 0;
-    height: 100vh    ;
+    /* height: 100vh    ; */
     position: relative; /* Sit on top of the page content */
    
    
@@ -39,8 +39,19 @@
 .paraclr{
     color: #252323;
     
+
+}
+.landingheading{
+    font-size: 4rem;
+    color: #0d9cb5;
 }
 
+.bclr
+{
+    color: #0d9cb5;
+
+    
+}
 .headclr{
     color: #9F00FF;
     position: relative;

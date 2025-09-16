@@ -3,12 +3,13 @@ import "./FlawVoices.css"
 import ali from "../Assets/ali.jpg"
 import aa from "../Assets/aa.jpg"
 import sa from "../Assets/sa.jpg"
-import e2 from "../Assets/e2.jpg"
+// import e from "../Assets/e.jpg"
 import e1 from "../Assets/e1.jpg"
 import e from "../Assets/e.jpg"
 import hk from "../Assets/hk.jpg"
 import uoj from "../Assets/urooj.png"
 import ceo from "../Assets/CEO.png"
+
 
 
 export default function FlawVoices() {
@@ -63,6 +64,7 @@ export default function FlawVoices() {
                                 <img src={uoj} className='thImg' alt="" />
                                 <span className='ms-2 fw-bold'>Urooj Javed</span>
                             </div>
+                            {/* <img src={e} alt="" /> */}
 
                         </div>
                     </div>

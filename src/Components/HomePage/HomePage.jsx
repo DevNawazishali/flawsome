@@ -17,14 +17,14 @@ export default function HomePage() {
      <Founder/>
     
     {/* <WhyUs/> */}
-    <Supervision/>
+    {/* <Supervision/> */}
     
     {/* <Blog/> */}
    
     {/* <FlawVoices/> */}
     {/* <Resources/> */}
-    <Testimonials/>
-    <Appoinment/>
+    {/* <Testimonials/> */}
+    {/* <Appoinment/> */}
     <JoinUs/>
       
     </div>

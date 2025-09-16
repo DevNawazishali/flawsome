@@ -11,11 +11,12 @@ export default function LandingPage() {
 
                     <div className="row justify-content-center">
                         <div className="col-md-9">
-                            <h1 className='landingheading text-center text-white  fw-bold pop'>
-                                Welcome to Flawsome
+                            <p className='pop text-center  bclr fw-bold mb-0  '>Welcome to</p>
+                            <h1 className='landingheading text-center   fw-bold pop'>
+                                Flawsome
                                 <br />
                                 <span style={{ color: "#9F00FF" }}>
-                                    <Typewriter
+                                    {/* <Typewriter
                                         words={[
                                             '“Embracing Flaws, Celebrating Growth”',
                                             'Your trusted space for therapy, psychoanalysis, supervision, and mental health awareness in Pakistan, where psychology meets compassion',
@@ -30,11 +31,13 @@ export default function LandingPage() {
                                         typeSpeed={70}
                                         deleteSpeed={50}
                                         delaySpeed={1000}
-                                    />
+                                    /> */}
                                 </span>
                             </h1>
 
-                            <p className='pop text-center landindtext '>A dedicated place for online and in-person counseling and therapy sessions in Islamabad, where our Certified psychologists</p>
+                            <p className='pop  bclr fw-bold text-center '>Embracing Flaws, Celebrating Growt</p>
+                            <p className='pop  bclr fw-bold text-center '>Your trusted space for therapy, psychoanalysis, supervision, and mental health awareness in Pakistan, where psychology meets compassion</p>
+                            <p className='pop  bclr fw-bold text-center '>Book a therapy session</p>
                             <div className='d-flex justify-content-center'>
 
                                 <button className=' appointment mt-5'> Appointment</button>
