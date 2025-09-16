@@ -1,0 +1,25 @@
+.WhyUs{
+    padding: 40px 0;
+    /* background-color: #c5def3; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.whyusbox li{
+    list-style: none !important;
+}
+.whyusbox{
+    margin: 10px;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 600px;
+}
+
+
+@media only screen and (max-width:700px){
+    .whyusbox{
+        height: auto;
+    }
+}

@@ -1,0 +1,20 @@
+.Appoinment{
+    padding: 40px 0;
+}
+
+.appointmentInput{
+    width: 100% !important;
+    border-radius: .5rem;
+    border:1px solid #7e00cd ;
+    padding: 10px 20px;
+    margin-top: 5px;
+}
+.appointmentInput:focus{
+    outline: 1px solid #7e00cd  ;
+}
+
+.appointmentLabel{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}

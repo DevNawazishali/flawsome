@@ -1,0 +1,50 @@
+.LandingPage{
+    background:url(../Assets/Picture.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 0;
+    height: 100vh    ;
+    position: relative; /* Sit on top of the page content */
+   
+   
+}
+
+.overlay{
+    position: absolute;
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+.landingheading{
+    position: relative;
+    z-index: 2;
+    color: black;
+}
+
+.landindtext{
+    color: #252323;
+    line-height: 2.4rem;
+    font-size: 20px ;
+    visibility:hidden;
+}
+
+.paraclr{
+    color: #252323;
+    
+}
+
+.headclr{
+    color: #9F00FF;
+    position: relative;
+    text-decoration: underline;
+    text-underline-offset: 6px; /* adjust gap size */
+}
+
