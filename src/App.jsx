@@ -18,6 +18,9 @@ import Testimonials from './Components/Testimonials/Testimonials';
 import JoinUs from './Components/JoinUs/JoinUs';
 import { Routes, Route, Link } from "react-router-dom";
 import HomePage from './Components/HomePage/HomePage';
+import Blog_1 from './Components/Blog/Blog_1';
+import Blog_2 from './Components/Blog/Blog_2';
+import Blog_3 from './Components/Blog/Blog_3';
 
 function App() {
 
@@ -35,6 +38,9 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/services" element={<WhyUs />} />
         <Route path="/Testinomials" element={<Testimonials />} />
+        <Route path="/Blog_1" element={<Blog_1 />} />
+        <Route path="/Blog_2" element={<Blog_2 />} />
+        <Route path="/Blog_3" element={<Blog_3 />} />
         <Route path="/Appointment" element={<Appoinment />} />
         {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
